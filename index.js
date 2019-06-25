@@ -3,7 +3,7 @@
 let choose = prompt("Choose shape console you want = 1. Rectangle 2. Circle 3. Triangle 4. Square");
 switch (choose) {
     case "1":
-        let rectangleWidth = prompt("Input Rectangle Width");
+        let rectangleWidth = prompt("Input Rsectangle Width");
         let rectangleHeigth = prompt("Input Rectangle Heigth");
         const rectangleArea = parseInt(rectangleWidth) * parseInt(rectangleWidth);
         console.log("Rectangle Area = " + rectangleWidth + " x " + rectangleHeigth + " = " + rectangleArea);
